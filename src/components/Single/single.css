@@ -1,0 +1,54 @@
+.single__userimage {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.single__content {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+.single__id {
+  margin-left: 4px;
+}
+.info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.result__index {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.FirstNameLastName {
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.occupation {
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+}
+.single__id {
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+.emailContainer {
+  flex: 3;
+  display: flex;
+}
+.phoneContainer {
+  flex: 2;
+}
+.companyContainer {
+  flex: 2;
+}
